@@ -44,14 +44,14 @@ Example payload:
 ```
 
 #### Get build metrics for a single job
-`GET /jobs/{id}/metrics/builds`
+`GET /jobs/{id}/metrics`
 
-`GET /jobs/{id}/metrics/builds?startTime=2019-02-01T12:00:00.000Z`
+`GET /jobs/{id}/metrics?stepName=sd-setup-scm`
 
-`GET /jobs/{id}/metrics/builds?startTime=2019-02-01T12:00:00.000Z&endTime=2019-03-01T12:00:00.000`
+`GET /jobs/{id}/metrics?startTime=2019-02-01T12:00:00.000Z`
 
-#### Get step metrics for a single job
-`GET /jobs/{id}/metrics/steps/sd-setup-scm`
+`GET /jobs/{id}/metrics?startTime=2019-02-01T12:00:00.000Z&endTime=2019-03-01T12:00:00.000`
+
 
 ### Access to Factory methods
 The server supplies factories to plugins in the form of server app values:

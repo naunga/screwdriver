@@ -44,7 +44,7 @@ const getJobMocks = (jobs) => {
     return decorateJobMock(jobs);
 };
 
-describe('job plugin test', () => {
+describe.only('job plugin test', () => {
     let jobFactoryMock;
     let pipelineFactoryMock;
     let pipelineMock;
