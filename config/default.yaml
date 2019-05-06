@@ -278,4 +278,4 @@ ecosystem:
 # default cluster environment variables to inject into builds
 build:
   environment:
-    SD_VERSION: 4
+    SD_VERSION: "4"
